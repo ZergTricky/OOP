@@ -1,0 +1,12 @@
+{
+    "variant": 7,
+    "figures": [
+      "Hexagon",
+      "Octagon",
+      "Triangle"
+    ],
+    "containers": [],
+    "finished_labs": {
+      "lab1": "./lab1"
+    }
+}
