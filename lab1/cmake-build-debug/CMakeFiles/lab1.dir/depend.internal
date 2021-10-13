@@ -10,11 +10,14 @@ CMakeFiles/lab1.dir/main.cpp.obj
  D:/oop/lab1/figure.h
  D:/oop/lab1/hexagon.h
  D:/oop/lab1/main.cpp
+ D:/oop/lab1/octagon.h
  D:/oop/lab1/point.h
  D:/oop/lab1/triangle.h
 CMakeFiles/lab1.dir/octagon.cpp.obj
+ D:/oop/lab1/figure.h
  D:/oop/lab1/octagon.cpp
  D:/oop/lab1/octagon.h
+ D:/oop/lab1/point.h
 CMakeFiles/lab1.dir/point.cpp.obj
  D:/oop/lab1/point.cpp
  D:/oop/lab1/point.h

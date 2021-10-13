@@ -25,7 +25,7 @@ double Octagon::Area() {
     for (size_t i = 0; i < size; ++i) {
         area += dist(P[i], P[(i + 1) % size]);
     }
-    if (area < 0.0)area = -1.0 * area;
+    if (area < -eps)area = -1.0 * area;
     return area;
 }
 
