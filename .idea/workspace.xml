@@ -30,19 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d02a1a97-a552-4f93-bc8b-5da751ade245" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/hexagon.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/hexagon.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/octagon.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/octagon.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/triangle.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/CMakeFiles/lab1.dir/triangle.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/cmake-build-debug/lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/cmake-build-debug/lab1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/octagon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/octagon.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +76,16 @@
       <workItem from="1634044052878" duration="1589000" />
       <workItem from="1634046781179" duration="1896000" />
       <workItem from="1634122765125" duration="467000" />
-      <workItem from="1634123305678" duration="146000" />
+      <workItem from="1634123305678" duration="235000" />
+      <workItem from="1634135447902" duration="34000" />
+      <workItem from="1634219587391" duration="762000" />
+      <workItem from="1634242418968" duration="9000" />
+      <workItem from="1634393409732" duration="322000" />
+      <workItem from="1634647031352" duration="62000" />
+      <workItem from="1634647095078" duration="19000" />
+      <workItem from="1634647990135" duration="17000" />
+      <workItem from="1634648015287" duration="42000" />
+      <workItem from="1634731407810" duration="239000" />
     </task>
     <servers />
   </component>
@@ -112,21 +109,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634044087574" />
-    <state width="1493" height="376" key="GridCell.Tab.0.bottom" timestamp="1634048691377">
+    <state width="1493" height="376" key="GridCell.Tab.0.bottom" timestamp="1634731648504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634048691377" />
-    <state width="1493" height="376" key="GridCell.Tab.0.center" timestamp="1634048691377">
+    <state width="1493" height="376" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634731648504" />
+    <state width="1493" height="376" key="GridCell.Tab.0.center" timestamp="1634731648503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634048691377" />
-    <state width="1493" height="376" key="GridCell.Tab.0.left" timestamp="1634048691376">
+    <state width="1493" height="376" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634731648503" />
+    <state width="1493" height="376" key="GridCell.Tab.0.left" timestamp="1634731648503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634048691376" />
-    <state width="1493" height="376" key="GridCell.Tab.0.right" timestamp="1634048691377">
+    <state width="1493" height="376" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634731648503" />
+    <state width="1493" height="376" key="GridCell.Tab.0.right" timestamp="1634731648504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="376" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634048691377" />
+    <state width="1493" height="376" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634731648504" />
   </component>
 </project>
