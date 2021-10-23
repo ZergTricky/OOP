@@ -1,5 +1,5 @@
-#ifndef LAB2_HEXAGON_H
-#define LAB2_HEXAGON_H
+#ifndef LAB3_HEXAGON_H
+#define LAB3_HEXAGON_H
 
 
 #include "iostream"
@@ -28,4 +28,4 @@ public:
 };
 
 
-#endif //LAB2_HEXAGON_H
+#endif //LAB3_HEXAGON_H

@@ -58,5 +58,4 @@ std::istream &operator>>(std::istream &is, Hexagon &hexagon) {
     }
     return is;
 }
-
-Hexagon::~Hexagon() {}
+Hexagon::~Hexagon(){}

@@ -1,5 +1,5 @@
-#ifndef LAB2_POINT_H
-#define LAB2_POINT_H
+#ifndef LAB3_POINT_H
+#define LAB3_POINT_H
 
 #include <iostream>
 
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //LAB2_POINT_H
+#endif //LAB3_POINT_H

@@ -5,7 +5,9 @@
       "Octagon",
       "Triangle"
     ],
-    "containers": [],
+    "containers": [
+      "TLinkedList"
+    ],
     "finished_labs": {
       "lab1": "./lab1"
     }
