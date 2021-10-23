@@ -5,7 +5,6 @@ using std::cout;
 
 int main() {
     TLinkedList list;
-    cout << list.Length() << "\n";
     shared_ptr<Hexagon> hex = make_shared<Hexagon>();
     cin >> *hex;
     list.InsertFirst(hex);

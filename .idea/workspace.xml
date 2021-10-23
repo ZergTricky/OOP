@@ -30,11 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d02a1a97-a552-4f93-bc8b-5da751ade245" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab3/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/hexagon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/hexagon.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/hexagon.h" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/hexagon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/point.h" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/point.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/variant.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +90,8 @@
       <workItem from="1634731407810" duration="239000" />
       <workItem from="1634921170500" duration="44000" />
       <workItem from="1634992223207" duration="1258000" />
-      <workItem from="1634994272122" duration="6000" />
+      <workItem from="1634994272122" duration="887000" />
+      <workItem from="1634995802557" duration="19000" />
     </task>
     <servers />
   </component>

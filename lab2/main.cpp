@@ -1,10 +1,10 @@
 #include "tlinkedlist.h"
 
-using namespace std;
+using std::cin;
+using std::cout;
 
 int main() {
     TLinkedList list;
-    cout << list.Length() << "\n";
     Hexagon hex;
     cin >> hex;
     list.InsertFirst(hex);
