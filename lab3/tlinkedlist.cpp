@@ -7,7 +7,10 @@ TLinkedList::TLinkedList() {
 
 TLinkedList::TLinkedList(const TLinkedList &list) {
     len = list.len;
-//    head = make_shared(TLinkedListItem(list.head->GetVal(), nullptr));
+    if (!list.len) {
+        head = nullptr;
+        return;
+    }
     head = make_shared<TLinkedListItem>(list.head->GetVal(), nullptr);
     shared_ptr<TLinkedListItem> cur = head;
     shared_ptr<TLinkedListItem> it = list.head;
@@ -21,10 +24,12 @@ TLinkedList::TLinkedList(const TLinkedList &list) {
 
 
 shared_ptr<Hexagon> TLinkedList::First() {
+    if (!len)return nullptr;
     return head->GetVal();
 }
 
 shared_ptr<Hexagon> TLinkedList::Last() {
+    if (!len)return nullptr;
     shared_ptr<TLinkedListItem> cur = head;
     for (size_t i = 0; i < len - 1; ++i) {
         cur = cur->GetNext();
@@ -39,6 +44,11 @@ void TLinkedList::InsertFirst(shared_ptr<Hexagon> hexagon) {
 }
 
 void TLinkedList::InsertLast(shared_ptr<Hexagon> hexagon) {
+    if (!len) {
+        head = make_shared<TLinkedListItem>(hexagon, nullptr);
+        len++;
+        return;
+    }
     shared_ptr<TLinkedListItem> cur = head;
     for (size_t i = 0; i < len - 1; ++i) {
         cur = cur->GetNext();
@@ -49,6 +59,7 @@ void TLinkedList::InsertLast(shared_ptr<Hexagon> hexagon) {
 }
 
 void TLinkedList::Insert(shared_ptr<Hexagon> hexagon, size_t pos) {
+    if (pos < 0 || pos > len)return;
     shared_ptr<TLinkedListItem> cur = head;
     shared_ptr<TLinkedListItem> prev = nullptr;
     for (size_t i = 0; i < pos; ++i) {
@@ -89,6 +100,7 @@ void TLinkedList::RemoveLast() {
 
 void TLinkedList::Remove(size_t pos) {
     if (!len)return;
+    if (pos < 0 || pos >= len)return;
     shared_ptr<TLinkedListItem> cur = head;
     shared_ptr<TLinkedListItem> prev = nullptr;
     for (size_t i = 0; i < pos; ++i) {
@@ -104,6 +116,7 @@ void TLinkedList::Remove(size_t pos) {
 }
 
 shared_ptr<Hexagon> TLinkedList::GetItem(size_t ind) {
+    if (ind < 0 || ind >= len)return nullptr;
     shared_ptr<TLinkedListItem> cur = head;
     for (size_t i = 0; i < ind; ++i) {
         cur = cur->GetNext();

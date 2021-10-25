@@ -7,6 +7,10 @@ TLinkedList::TLinkedList() {
 
 TLinkedList::TLinkedList(const TLinkedList &list) {
     len = list.len;
+    if (!list.len) {
+        head = nullptr;
+        return;
+    }
     head = new TLinkedListItem(list.head->GetVal(), nullptr);
     TLinkedListItem *cur = head;
     TLinkedListItem *it = list.head;
@@ -20,6 +24,10 @@ TLinkedList::TLinkedList(const TLinkedList &list) {
 
 
 const Hexagon &TLinkedList::First() {
+    if (!len) {
+        std::cout << "The list is empty!\n";
+        return Hexagon();
+    }
     return head->GetVal();
 }
 
@@ -38,6 +46,11 @@ void TLinkedList::InsertFirst(const Hexagon &hexagon) {
 }
 
 void TLinkedList::InsertLast(const Hexagon &hexagon) {
+    if (!len) {
+        head = new TLinkedListItem(hexagon, nullptr);
+        len++;
+        return;
+    }
     TLinkedListItem *cur = head;
     for (size_t i = 0; i < len - 1; ++i) {
         cur = cur->GetNext();
@@ -48,6 +61,7 @@ void TLinkedList::InsertLast(const Hexagon &hexagon) {
 }
 
 void TLinkedList::Insert(const Hexagon &hexagon, size_t pos) {
+    if (pos > len || pos < 0)return;
     TLinkedListItem *cur = head;
     TLinkedListItem *prev = nullptr;
     for (size_t i = 0; i < pos; ++i) {
@@ -90,6 +104,7 @@ void TLinkedList::RemoveLast() {
 
 void TLinkedList::Remove(size_t pos) {
     if (!len)return;
+    if (pos < 0 || pos >= len)return;
     TLinkedListItem *cur = head;
     TLinkedListItem *prev = nullptr;
     for (size_t i = 0; i < pos; ++i) {
@@ -106,6 +121,10 @@ void TLinkedList::Remove(size_t pos) {
 }
 
 const Hexagon &TLinkedList::GetItem(size_t ind) {
+    if (ind < 0 || ind >= len) {
+        std::cout << "NOT FOUND\n";
+        return Hexagon();
+    }
     TLinkedListItem *cur = head;
     for (size_t i = 0; i < ind; ++i) {
         cur = cur->GetNext();
