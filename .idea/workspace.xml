@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d02a1a97-a552-4f93-bc8b-5da751ade245" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab5/titerator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +96,9 @@
       <workItem from="1635435128149" duration="1106000" />
       <workItem from="1635440853005" duration="6000" />
       <workItem from="1635520024741" duration="46000" />
+      <workItem from="1636067216296" duration="143000" />
+      <workItem from="1636067376198" duration="106000" />
+      <workItem from="1636104118381" duration="11000" />
     </task>
     <servers />
   </component>
