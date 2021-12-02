@@ -30,8 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d02a1a97-a552-4f93-bc8b-5da751ade245" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab01/BitString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab01/BitString.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/variant.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,10 @@
       <workItem from="1636104118381" duration="11000" />
       <workItem from="1637068347400" duration="28000" />
       <workItem from="1637165707726" duration="95000" />
+      <workItem from="1637233634540" duration="22000" />
+      <workItem from="1638114704732" duration="35000" />
+      <workItem from="1638114746845" duration="5000" />
+      <workItem from="1638114833585" duration="10000" />
     </task>
     <servers />
   </component>

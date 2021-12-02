@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/oop/lab01/bitstring.h
+iostream
+D:/oop/lab01/iostream
+
+D:/oop/lab01/main.cpp
+bitstring.h
+D:/oop/lab01/bitstring.h
+
