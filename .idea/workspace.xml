@@ -30,13 +30,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d02a1a97-a552-4f93-bc8b-5da751ade245" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab6/titerator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/titerator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/tvector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/tvector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/tvectorallocator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab5/report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variant.json" beforeDir="false" afterPath="$PROJECT_DIR$/variant.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +111,10 @@
       <workItem from="1638114746845" duration="5000" />
       <workItem from="1638114833585" duration="10000" />
       <workItem from="1638968623943" duration="1128000" />
+      <workItem from="1639340387212" duration="7000" />
+      <workItem from="1639344122227" duration="961000" />
+      <workItem from="1639389163875" duration="1800000" />
+      <workItem from="1639392616561" duration="242000" />
     </task>
     <servers />
   </component>
@@ -151,5 +154,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="376" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634731648504" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1639390152359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639390152359" />
   </component>
 </project>
